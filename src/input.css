@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu-btn.active div {
+  @apply bg-transparent transition duration-300;
+}
+
+#menu-btn.active div:before {
+  transform: rotate(45deg);
+}
+
+#menu-btn.active div:after {
+  transform: rotate(-45deg);
+}
+
+.items {
+  @apply cursor-grab;
+}
+
+.items:active {
+  @apply cursor-grabbing;
+}
+
+.owl-dot span {
+  @apply w-5 rounded h-[5px] bg-[#ffffff66] transition duration-300 !important;
+}
+
+svg {
+  @apply transition duration-300;
+}
+
+svg.rotate {
+  @apply rotate-180;
+}
+
+.owl-dot.active span {
+  @apply bg-white !important;
+}
+
+@media (min-width: 1024px) {
+  .owl-dot span {
+    @apply bg-[#00000066] !important;
+  }
+
+  .owl-dot.active span {
+    @apply bg-slate-900 !important;
+  }
+}
