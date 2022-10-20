@@ -1,13 +1,13 @@
-# Meal Finder
+# Landing Page (How To Pilot)
 
-consume API Website with webpack, bootstrap 5, javascript
+Create landing page How To Pilot Design by Dasteen
 
 ## Cloning folder
 
 Get the project with gitbash
 
 ```bash
-  git clone https://github.com/fannr/meal-finder.git
+  git clone https://github.com/fannr/landing-page-howtopilot.git
 ```
 
 ## Deployment
@@ -18,14 +18,10 @@ Download all package in folder
   npm install
 ```
 
-## Running Tests
+## Running Tests CSS
 
-To run tests, run the following command
+To run tests CSS, run the following command
 
 ```bash
-  npm run start-dev
+  npm run dev
 ```
-
-## Demo
-
-https://meal-finder-noerra.netlify.app/
